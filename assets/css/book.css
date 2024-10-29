@@ -16,8 +16,14 @@ body{
 .contaner{
     width: 85%;
     margin: auto;}
+
+.hidden {
+    visibility: hidden;
+}
+
 .fa-bookmark {
     cursor: pointer;
+    margin-left: 10px;
 }
 
 .card.transform{
@@ -51,12 +57,21 @@ body{
 }
 .fa-check {
     border: 1px red solid;
-    color:red;   
+    color:red;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .readed {
     border: 1px green solid;
     color:green; 
+}
+.delete-book{
+   
+    color:black;
+    cursor: pointer;
 }
 .close{
     cursor: pointer;
@@ -285,16 +300,16 @@ text-align: center;
     margin-top: 3px;
 }
 
-
+/* 
 .read-toggle {
     cursor: pointer;
     margin-left: 10px;
 }
 
-.read-toggle.read {
+.read {
     color: green; /* Color for read books */
-}
+/* }
 
-.read-toggle.unread {
+.unread {
     color: red; /* Color for unread books */
-}
+/* } */ 

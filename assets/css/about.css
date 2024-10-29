@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* About Section CSS */
+.about-section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    color: #2E5EAA;
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+  
+  .about-section p, .about-section li {
+    color: #333;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  .about-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 15px 0;
+  }
+  
+  #learn-more {
+    background-color: #2E5EAA;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #learn-more:hover {
+    background-color: #1d3e73;
+  }
+  
+  .more-info {
+    margin-top: 15px;
+    color: #555;
+    transition: max-height 0.3s ease;
+  }
+  

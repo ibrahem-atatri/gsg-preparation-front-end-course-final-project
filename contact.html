@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="./assets/css/book.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous"/>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="contaner">
+            <div class="header-content">
+        <div class="logo">
+            <img src="./assets/img/book-logo.jpg" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+
+                    
+            </ul>
+        </nav>
+        <div class="header-icon">
+            <i class="fa-solid fa-right-to-bracket" onclick="location.href='./login.html';"></i>
+           
+            
+        </div>
+    </div>
+    </div>
+    </header>
+
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you! Whether you have a question about the library, want to give feedback, or need assistance, feel free to reach out.</p>
+    
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div id="formResponse" class="response-message"></div>
+  </div>
+</section>
+
+
+  <script src="./assets/js/contact.js"></script>
+</body>
+</html>
