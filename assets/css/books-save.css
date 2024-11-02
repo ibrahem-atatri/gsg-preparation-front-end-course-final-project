@@ -1,0 +1,21 @@
+.book-save{
+    margin-top: 20px;
+}
+.book-save h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+.book-save-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.item{
+    width: 30%;
+    text-align: center;
+    transition: all .3s;
+}
+.item:hover{
+    transform: scale(1.2);
+}

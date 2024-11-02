@@ -11,4 +11,3 @@ document.getElementById('learn-more').addEventListener('click', function() {
       this.textContent = 'Learn More';
     }
   });
-

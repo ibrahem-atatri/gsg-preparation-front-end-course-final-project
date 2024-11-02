@@ -1,3 +1,30 @@
+// const logBtn=document.querySelector('[type="submit"]');
+// const emailInput=document.querySelector('[type="email"]');
+// const passwordInput=document.querySelector('[type="password"]');
+// const emailErrorMsg=document.querySelector('.email-error-msg');
+// const passwordErrorMsg=document.querySelector('.password-error-msg');
+
+// //login validation --required
+// logBtn.addEventListener('click',(e)=>{
+//     e.preventDefault();
+//     if( !(emailInput.value && passwordInput.value)){
+//         console.log('Please enter')
+//         emailErrorMsg.style.display = 'block';
+//         passwordErrorMsg.style.display = 'block';
+//     }
+//     else{
+//         window.location='index.html';
+//     }
+// })
+
+// emailInput.addEventListener('keydown',()=>{
+//     emailErrorMsg.style.display = 'none';
+// })
+// passwordInput.addEventListener('keydown',()=>{
+//     passwordErrorMsg.style.display = 'none';
+// })
+
+
 
 
 //handel search bar
@@ -22,7 +49,7 @@ form.addEventListener("submit", function (event) {
     console.log("User data saved in local storage:", userData);
     
     event.target.reset();
-    window.location.href=`index.html`;    
+    window.location.href=`./index.html`;    
 });
 
 
@@ -39,31 +66,5 @@ form.addEventListener("submit", function (event) {
 
 
 
-
-
-
-console.log(searchIcon,input)
-searchIcon.addEventListener('click',()=>{
-    if(input.style.display=='block'){
-        input.style.display='none';
-        searchButton.style.display='none';
-        searchIcon.style.border='1px solid #2E5EAA';
-        
-    }else{
-        input.style.display='block';
-        input.value='';
-        searchButton.style.display='inline-block';
-        input.focus();
-        searchIcon.style.border='none';
-
-    }
-});
-searchButton.addEventListener('click',()=>{
-    if(input.value==''){
-        alert('Please enter a search term')
-    }else{
-        window.location.href=`index.html?search=${input.value}`;
-    }
-})
 
 

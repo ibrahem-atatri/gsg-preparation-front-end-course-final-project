@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Collection</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="./assets/css/general.css">
+  <link rel="stylesheet" href="./assets/css/bookadd.css">
+  
+
+</head>
+<body>
+    <header class="header">
+        <div class="contaner">
+            <div class="header-content">
+        <div class="logo">
+            <img src="./assets/img/book-logo.jpg" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+
+                    
+            </ul>
+        </nav>
+        <div class="header-icon">
+            <a href="./login.html"><i class="fa-solid fa-arrow-right-to-bracket login" ></i></a> 
+        </div>
+    </div>
+    </div>
+    </header>
+  <div class="container">
+ 
+        <h1>Add  Books To Your Collection</h1>
+  
+    <form id="bookForm">
+      <label for="bookName">Book Name:</label>
+      <input type="text" id="bookName" placeholder="Enter book name" required>
+
+      <label for="author">Author:</label>
+      <input type="text" id="author" placeholder="Enter author name" required>
+
+      <label for="genre">Genre:</label>
+      <input type="text" id="genre" placeholder="Enter genre" required>
+      <label for="imageUrl">Book Cover Image :</label>
+      <input type="url" id="imageUrl" placeholder="Enter image URL" required>
+
+      <button type="submit">Add Book</button>
+    </form>
+    <div id="bookList">
+      <h2>Your Book Collection</h2>
+      <div class="search-bar" >
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="search book by first title letter" >
+          </div>
+      <ul id="books"></ul>
+    </div>
+  </div>
+  <script src="./assets/js/bookAdd.js"></script>
+</body>
+</html>
